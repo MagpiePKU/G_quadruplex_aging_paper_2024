@@ -1,4 +1,4 @@
-## Part 1. Match TFBS motif to genomic locations
+## Part 1. Extract TFBS Motifs
 
 
 library(tidyr)
