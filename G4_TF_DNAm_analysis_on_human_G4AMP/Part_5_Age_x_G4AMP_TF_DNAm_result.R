@@ -16,8 +16,6 @@ library(Seurat)
 library(readr)
 library(TxDb.Hsapiens.UCSC.hg19.knownGene)
 
-# saveRDS(G4_region_TFBS_beta_df_summarised_for_t3_new %>% dplyr::select(library_name,real_age,Group,Mutated_gene) %>% unique(),file='/Users/wing/Desktop/Eulerian/文件/内部研发项目/G4_aging/data/G4AMP_progeroid/meta_human.rds')
-
 meta_human <- readRDS('/Users/wing/Desktop/Eulerian/文件/内部研发项目/G4_aging/data/G4AMP_progeroid/meta_human.rds')
 human_rdslist <- list.files(path='/Users/wing/Desktop/Eulerian/文件/内部研发项目/G4_aging/data/G4AMP_progeroid/rds',full.names = T,pattern='*rds')
 
